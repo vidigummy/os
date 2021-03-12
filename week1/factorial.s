@@ -2,7 +2,6 @@
 
     .text
 main:
-    //찾아보니 $a0~ 가 인자다 .
     li $v0, 5
     syscall
     move $a0, $v0
